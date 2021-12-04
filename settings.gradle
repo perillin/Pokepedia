@@ -1,0 +1,4 @@
+include ':nativetemplates'
+include ':app'
+project(':nativetemplates').projectDir = new File(rootDir, '.gradle/googleads-mobile-android-native-templates-master/googleads-mobile-android-native-templates-master/nativetemplates/')
+rootProject.name = "My Application"

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pokemon_in"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="5%"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textColor="#e8e3da" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="15%"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:textColor="#e8e3da"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="25%"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:textColor="#e8e3da"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="35%"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:textColor="#e8e3da" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="45%"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:textColor="#e8e3da"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_heightPercent="30%"
+        app:layout_marginLeftPercent="45%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="50%"/>
+
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id="@+id/my_template"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:gnt_template_type="@layout/gnt_small_template_view"
+        app:layout_marginTopPercent="85%"/>
+
+</androidx.percentlayout.widget.PercentFrameLayout>
